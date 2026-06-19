@@ -31,9 +31,9 @@ export default function HowItWorks() {
       className="scroll-mt-24 border-t border-dark/10 px-6 py-20 sm:py-28"
     >
       <div className="mx-auto w-full max-w-5xl">
-        <Reveal>
+        <Reveal className="text-center">
           <Eyebrow>How it works</Eyebrow>
-          <h2 className="mt-4 max-w-2xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
+          <h2 className="mt-4 text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
             Four steps, fully on your terms.
           </h2>
         </Reveal>
