@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Nav() {
   return (
     <header className="fixed inset-x-0 top-4 z-50 flex justify-center px-4">
-      <nav className="flex w-full max-w-3xl items-center justify-between gap-4 rounded-full border border-dark/10 bg-cream/80 py-2.5 pl-5 pr-2.5 shadow-sm backdrop-blur-md">
+      <nav className="inline-flex items-center gap-6 rounded-full border border-dark/10 bg-cream/80 py-2.5 pl-5 pr-2.5 shadow-sm backdrop-blur-md">
         <a href="#top" aria-label="Protégé — home" className="flex items-center">
           <Image
             src="/Wordmark%20Black.png"

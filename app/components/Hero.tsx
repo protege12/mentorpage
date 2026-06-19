@@ -2,7 +2,7 @@ import Reveal from "./Reveal";
 
 export default function Hero() {
   return (
-    <section id="top" className="px-6 pb-24 pt-40 sm:pb-32 sm:pt-48">
+    <section id="top" className="flex min-h-svh items-center px-6 py-24">
       <div className="mx-auto w-full max-w-3xl">
         <Reveal>
           <h1 className="text-4xl font-black leading-[1.05] tracking-tight sm:text-6xl">
@@ -10,7 +10,7 @@ export default function Hero() {
           </h1>
         </Reveal>
 
-        <Reveal delay={120}>
+        <Reveal delay={130}>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-dark/70 sm:text-xl">
             Protégé connects working creatives in Indianapolis with young people
             who actually want mentorship. You post what you offer, set your
@@ -18,7 +18,7 @@ export default function Hero() {
           </p>
         </Reveal>
 
-        <Reveal delay={200}>
+        <Reveal delay={260}>
           <a
             href="#signup"
             className="mt-10 inline-block rounded-full bg-orange px-7 py-3.5 text-base font-bold text-white transition-transform duration-200 hover:scale-[1.03]"

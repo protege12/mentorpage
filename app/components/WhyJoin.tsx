@@ -33,7 +33,7 @@ export default function WhyJoin() {
 
         <ul className="mt-10 space-y-6">
           {points.map((point, i) => (
-            <Reveal as="li" key={point.title} delay={i * 70} className="flex gap-4">
+            <Reveal as="li" key={point.title} delay={i * 80} className="flex gap-4">
               <span
                 aria-hidden
                 className="mt-2.5 h-px w-6 flex-none bg-orange"

@@ -40,17 +40,16 @@ export default function HowItWorks() {
 
         <ul className="mt-12 grid gap-5 sm:grid-cols-2">
           {steps.map((step, i) => (
-            <Reveal
-              as="li"
-              key={step.n}
-              delay={i * 80}
-              className="group rounded-2xl border border-dark/10 bg-white/40 p-7 transition-all duration-300 hover:-translate-y-0.5 hover:border-orange/40 hover:bg-white/70 hover:shadow-sm"
-            >
-              <div className="flex items-baseline gap-3">
-                <span className="text-2xl font-black text-orange">{step.n}</span>
-                <h3 className="text-xl font-bold">{step.title}</h3>
+            <Reveal as="li" key={step.n} delay={i * 100}>
+              <div className="group h-full rounded-2xl border border-dark/10 bg-white/40 p-7 transition-all duration-300 hover:-translate-y-0.5 hover:border-orange/40 hover:bg-white/70 hover:shadow-sm">
+                <div className="flex items-baseline gap-3">
+                  <span className="text-2xl font-black text-orange">
+                    {step.n}
+                  </span>
+                  <h3 className="text-xl font-bold">{step.title}</h3>
+                </div>
+                <p className="mt-3 leading-relaxed text-dark/70">{step.body}</p>
               </div>
-              <p className="mt-3 leading-relaxed text-dark/70">{step.body}</p>
             </Reveal>
           ))}
         </ul>
